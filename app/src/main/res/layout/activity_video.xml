@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context=".MainActivity"
+	>
+
+	<com.king.drawboard.view.DrawBoardView
+		android:id="@+id/drawBoardView"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		android:background="@color/black"
+		tools:src="@drawable/test"
+		/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@color/menu_bg"
+		android:gravity="right"
+		android:orientation="horizontal"
+		android:paddingLeft="10dp"
+		android:paddingTop="2dp"
+		android:paddingRight="10dp"
+		android:paddingBottom="2dp"
+		>
+
+		<ImageView
+			android:id="@+id/ivDrawMode"
+			style="@style/OnClick"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_margin="10dp"
+			android:src="@drawable/btn_menu_path"
+			/>
+
+		<View
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:layout_weight="1"
+			/>
+
+		<ImageView
+			android:id="@+id/ivPen"
+			style="@style/OnClick"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:src="@drawable/btn_menu_pen_red"
+			/>
+
+		<View
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:layout_weight="1"
+			/>
+
+		<ImageView
+			android:id="@+id/ivClear"
+			style="@style/OnClick"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:src="@drawable/btn_menu_clear"
+			/>
+
+		<View
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:layout_weight="1"
+			/>
+
+		<ImageView
+			android:id="@+id/ivUndo"
+			style="@style/OnClick"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:src="@drawable/btn_menu_undo"
+			/>
+
+		<View
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:layout_weight="1"
+			/>
+
+		<ImageView
+			android:id="@+id/ivRedo"
+			style="@style/OnClick"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:src="@drawable/btn_menu_redo"
+			/>
+
+		<View
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:layout_weight="1"
+			/>
+
+		<ImageView
+			android:id="@+id/ivSave"
+			style="@style/OnClick"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:src="@drawable/btn_menu_save"
+			/>
+	</LinearLayout>
+</LinearLayout>

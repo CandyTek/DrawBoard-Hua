@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:background="@color/menu_bg"
+	android:gravity="center"
+	android:orientation="vertical"
+	>
+
+	<ImageView
+		android:id="@+id/ivPath"
+		style="@style/OnClick"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+		android:src="@drawable/btn_menu_path"
+		/>
+
+	<ImageView
+		android:id="@+id/ivLine"
+		style="@style/OnClick"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+		android:src="@drawable/btn_menu_line"
+		/>
+
+	<ImageView
+		android:id="@+id/ivRect"
+		style="@style/OnClick"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+		android:src="@drawable/btn_menu_rect"
+		/>
+
+	<ImageView
+		android:id="@+id/ivOval"
+		style="@style/OnClick"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+		android:src="@drawable/btn_menu_oval"
+		/>
+
+	<ImageView
+		android:id="@+id/ivText"
+		style="@style/OnClick"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+		android:src="@drawable/btn_menu_text"
+		/>
+
+	<ImageView
+		android:id="@+id/ivBitmap"
+		style="@style/OnClick"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+		android:src="@drawable/btn_menu_bitmap"
+		/>
+
+	<ImageView
+		android:id="@+id/ivEraser"
+		style="@style/OnClick"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+		android:src="@drawable/btn_menu_eraser"
+		/>
+</LinearLayout>

@@ -1,0 +1,31 @@
+//App
+def app_version = [:]
+app_version.versionCode = 2
+app_version.versionName = "1.0.1"
+ext.app_version = app_version
+
+//build version
+def build_versions = [:]
+build_versions.minSdk = 21
+build_versions.targetSdk = 29
+build_versions.compileSdk = 33
+ext.build_versions = build_versions
+
+//App dependencies
+def versions = [:]
+versions.mavenPublish = '0.18.0'
+versions.dokka = "1.5.0"
+versions.gradle = '8.0.1'
+versions.kotlin = '1.8.10'
+versions.appcompat = "1.6.1"
+versions.coreKtx = "1.10.0"
+versions.material = "1.8.0"
+versions.constraintlayout = "2.1.4"
+versions.junit = "4.13.2"
+versions.androidExtJunit = "1.1.5"
+versions.espressoCore = "3.5.1"
+
+versions.kotlinxCoroutines = "1.5.2"
+versions.lifecycleKtx="2.5.1"
+
+ext.versions = versions
